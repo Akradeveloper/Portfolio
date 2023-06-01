@@ -4,19 +4,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diseñador Freelancer</title>
-    <style>
-        
-    </style>
+    <link rel="preload" href="styles/normalize.css" as="style" >
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="preload" href="styles/index.css" as="style" >
+    <link rel="stylesheet" href="styles/index.css">
+
 </head>
     <header>
-        <h1>Endika Santamaria </h1>
+        <h1 class="titulo">Endika Santamaria</h1>
     </header>
-    <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Sobre mi</a>
-        <a href="#">Clientes</a>
-        <a href="#">Contacto</a>
-    </nav>
+    <div class="nav-bg">
+        <nav class="mainNav container">
+            <a href="#">Inicio</a>
+            <a href="#">Sobre mi</a>
+            <a href="#">Clientes</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </div>
     <section>
         <p>
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -25,7 +29,7 @@
                 <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"></path>
             </svg>
         </p>
-        <h2>QA Engineer    </h2>
+        <h2 class="titulo">QA Engineer    </h2>
         <p>Portugalete , Vizcaya</p>
         <a href="#">Contacar</a>
     </section>

@@ -48,6 +48,27 @@ h3 {
   margin: 0 auto;
   max-width: 120rem;
 }
+
+/*UTILIDADES */
+.w-sm-100 {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .w-sm-100 {
+    width: auto;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.align-right {
+  justify-content: flex-end;
+}
+
+/*UTILIDADES */
 .nav-bg {
   background-color: var(--secundario);
 }
@@ -119,8 +140,9 @@ h3 {
   text-transform: uppercase;
   font-weight: 700; /*Bold*/
   border-radius: 0.5rem; /*redondear*/
-  width: 90%;
+  width: 100%;
   text-align: center;
+  border: none;
 }
 
 .shadow {
@@ -136,6 +158,10 @@ h3 {
   .button-contact {
     width: auto;
   }
+}
+
+.button-contact:hover {
+  cursor: pointer;
 }
 
 .services {
@@ -168,4 +194,50 @@ h3 {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.form {
+  background-color: var(--gris);
+  width: min(60rem, 100%); /* Usa el valor mas pequeño*/
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.form fieldset {
+  border: none;
+}
+
+.form legend {
+  text-align: center;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: var(--primario);
+}
+
+.form-container {
+}
+
+.form-field {
+  margin-bottom: 1rem;
+}
+
+.form-field label {
+  color: var(--blanco);
+  margin-bottom: 0.5rem;
+  display: block;
+  font-weight: 700;
+}
+
+.input-text {
+  width: 100%;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 1rem;
+}
+
+.submit .button-contact {
+  width: 100%;
 }

@@ -80,6 +80,7 @@ h1,h2,h3{
     background-size: cover;
     height: 450px;
     position: relative;
+    margin-bottom: 2rem;
 }
 .hero-container{
     position: absolute;
@@ -115,6 +116,15 @@ h1,h2,h3{
     border-radius: .5rem; /*redondear*/
     width: 90%;
     text-align: center;
+}
+
+.shadow{
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(92,92,92,0.54);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(92,92,92,0.54);
+    box-shadow: 0px 5px 15px 0px rgba(92,92,92,0.54);
+    background-color: var(--blanco);
+    padding: 2rem;
+    border-radius: 1rem;
 }
 
 @media (min-width: 768px){

@@ -4,6 +4,7 @@
     --primario: #FFC107;
     --secundario: #0097A7;
     --gris: grey;
+    --grisClaro:#DFE9F3;
 }
 html{
     font-size: 62.5%;
@@ -17,8 +18,8 @@ html{
 body{
     font-size: 16px;
     font-family: 'krub', sans-serif;
+    background-image: linear-gradient(to top,var(--grisClaro) 0%, var(--blanco) 100%);
 }
-
 h1{
     font-size: 3.8rem ;
 }

@@ -221,6 +221,7 @@ h3 {
 
 .form-field textarea {
   height: 20rem;
+  resize: none;
 }
 
 .submit .button-contact {
